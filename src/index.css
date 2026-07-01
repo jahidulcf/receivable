@@ -11,7 +11,7 @@ body {
 }
 
 input, textarea, select {
-  @apply font-inherit;
+  font-family: inherit;
 }
 
 input::-webkit-outer-spin-button,
@@ -25,5 +25,5 @@ input[type=number] {
 }
 
 .min-touch-target {
-  @apply min-h-44 min-w-44;
+  @apply min-h-11 min-w-11;
 }
